@@ -48,8 +48,8 @@ function despedida(){
 function ejer1(){
     // 1. Grados Celsius a Fahrenheit.
     // Proceso ejer1
-    //     Definir celsius Como Real
-    //     Escribir "Ingrese grados Celsius"
+    //     Definir celsius como real
+    //     Escribir "Ingrese grados Celsius:"
     //     Leer celsius
     //     fahrenheit = (celsius * 9 / 5) + 32
     //     Escribir los grados celcius en grados fahrenheit
@@ -62,9 +62,7 @@ function ejer1(){
 function ejer2(){
     // 2. Un número entero, obtener y presentar el doble y el triple del número.
     // Proceso ejer2    
-    //     Definir num Como Entero
-    //     Definir doble Como Entero
-    //     Definir triple Como Entero
+    //     Definir num, doble, triple como enteros
     //     Escribir "Ingrese un numero entero:"
     //     Leer num
     //     doble = num * 2
@@ -82,13 +80,7 @@ function ejer2(){
 function ejer3(){
     // 3. Lee 4 variables y calcula e imprime su producto, su suma y su media aritmética.    
     // Proceso ejer3
-    //     Definir v1 Como Real
-    //     Definir v2 Como Real
-    //     Definir v3 Como Real
-    //     Definir v4 Como Real
-    //     Definir producto Como Real
-    //     Definir suma Como Real
-    //     Definir media Como Real
+    //     Definir v1, v2, v3, v4, producto, suma, media como reales
     //     Escribir "Ingrese la variable 1:"
     //     Leer v1
     //     Escribir "Ingrese la variable 2:"
@@ -119,9 +111,7 @@ function ejer3(){
 function ejer4(){
     // Lee el peso de un hombre en libras y devuelve el peso en kilogramos y gramos.
     // Proceso ejer4
-    //     Definir pesoLibras Como Real
-    //     Definir kilogramos Como Real
-    //     Definir gramos Como Real
+    //     Definir pesoLibras, kilogramos, gramos como reales
     //     Escribir "Ingrese su peso en libras:"
     //     Leer pesoLibras
     //     kilogramos = pesoLibras * 0.453592
@@ -139,10 +129,7 @@ function ejer4(){
 function ejer5(){
     // Resuelve x=((sen(a)+cos(b))*(trunc(a) mod 2))+(raiz(a^3)/(a*b+c))
     //     Proceso ejer5
-    //     Definir a Como Real
-    //     Definir b Como Real
-    //     Definir c Como Real
-    //     Definir x Como Real
+    //     Definir a,b,c,x como reales
     //     Escribir "Ingrese el valor de a:"
     //     Leer a
     //     Escribir "Ingrese el valor de b:"
@@ -165,14 +152,8 @@ function ejer6(){
     // El porcentaje del seguro social(iess) es del 10% del ingreso total. Se desea saber cuál es el valor del sueldo,
     // sobretiempo, ingreso total, seguro social y el neto a recibir.
     // Proceso ejer6
-    //     Definir horasNormales Como Entero
-    //     Definir horasTrabajadas Como Entero
-    //     Definir tarifaHora Como Real
-    //     Definir sueldoNormal Como Real
-    //     Definir sueldoExtra Como Real
-    //     Definir ingresoTotal Como Real
-    //     Definir seguroSocial Como Real
-    //     Definir netoRecibir Como Real    
+    //     Definir horasNormales, horasTrabajadas como enteros
+    //     Definir tarifaHora, sueldoNormal, sueldoExtra, ingresoTotal, seguroSocial, netoRecibir, netoRecibir como reales
     //     horasNormales = 40
     //     tarifaHora = 5
     //     Escribir "Ingrese las horas trabajadas en la semana:"
@@ -224,8 +205,7 @@ function ejer6(){
 function ejer7(){
     // Lee dos números y presenta el mayor de los dos siempre y cuando el primero sea par y el segundo impar.
     // Proceso ejer7
-    //     Definir num1 Como Entero
-    //     Definir num2 Como Entero
+    //     Definir num1, num2 como enteros
     //     Escribir "Ingrese un número:"
     //     Leer num1
     //     Escribir "Ingrese otro número:"
@@ -257,7 +237,7 @@ function ejer8(){
     // Lee un carácter y deduce si está o no comprendido entre las letras a y z ambas inclusive y sino
     // verificar si es un signo de puntuacion  , . ; :  y si no presentar solo el carácter.
     // Proceso ejer8
-    //     Definir caracter Como Caracter
+    //     Definir caracter como caracter
     //     Escribir "Ingrese un caracter:"
     //     Leer caracter
     //     Si caracter >= 'a' Y caracter <= 'z' Entonces
@@ -285,9 +265,8 @@ function ejer9(){
     // Determina cuánto se debe pagar por x cantidad de colas, considerando que si son menos de 12 colas, el costo
     // por unidad es de $0,25 caso contrario el precio será 10% menos.
     // Proceso ejer9
-    //     Definir cola Como Entero
-    //     Definir precio Como Real
-    //     Definir descuento Como Real
+    //     Definir cola como entero
+    //     Definir precio, descuento como reales
     //     Escribir "Ingrese la cantidad de colas que va a llevar:"
     //     Leer cola
     //     precio = cola * 0.25
@@ -311,12 +290,7 @@ function ejer10(){
     // se les aplicará un descuento del 10% y al resto tendrán un descuento de solo $10 dólares.
     // Presenta el valor de cada traje con su respectivo valor, descuento y pago considerando el iva del 15%.
     // Proceso ejer10
-    //     Definir precioTraje Como Real
-    //     Definir descuento Como Real
-    //     Definir iva Como Real
-    //     Definir precioFinal Como Real
-    //     Definir descuentoNuevo Como Real
-    //     Definir pago Como Real
+    //     Definir precioTraje, descuento, iva, precioFinal, descuentoNuevo, pago como reales
     //     Escribir "Ingrese el precio de su traje:"
     //     Leer precioTraje
     //     descuento = 0
@@ -362,7 +336,7 @@ function ejer10(){
 function ejer11(){
     // Dado un día en número, presentar el nombre de ese día. Solución con arreglos.
     // Proceso ejer11
-    //     Definir dias Como Arreglo de Caracteres
+    //     Definir dias como caracter
     //     dias[1] = "lunes"
     //     dias[2] = "martes"
     //     dias[3] = "miércoles"
@@ -370,13 +344,13 @@ function ejer11(){
     //     dias[5] = "viernes"
     //     dias[6] = "sábado"
     //     dias[7] = "domingo"
-    //     Definir dia Como Entero
+    //     Definir dia como entero
     //     Escribir "Ingrese un número del día de la semana del 1 al 7:"
     //     Leer dia
     //     Si dia < 1 O dia > 7 Entonces
     //         Escribir "El número ingresado no es válido. Por favor, ingrese un número entre 1 y 7."
     //     Sino
-    //         Definir nombreDia Como Caracteres
+    //         Definir nombreDia como caracter
     //         nombreDia = dias[dia]
     //         Escribir "El número que ha seleccionado corresponde a: ", nombreDia
     //     FinSi
@@ -394,7 +368,7 @@ function ejer11(){
 function ejer12(){
     // Dado un mes en número, presentar el nombre de ese mes. Solución con arreglos.
     // Proceso ejer12
-    //     Definir meses Como Arreglo de Caracteres
+    //     Definir meses como caracter
     //     meses[1] = "enero"
     //     meses[2] = "febrero"
     //     meses[3] = "marzo"
@@ -407,13 +381,13 @@ function ejer12(){
     //     meses[10] = "octubre"
     //     meses[11] = "noviembre"
     //     meses[12] = "diciembre"
-    //     Definir mes Como Entero
+    //     Definir mes como entero
     //     Escribir "Ingrese un número del mes del 1 al 12:"
     //     Leer mes
     //     Si mes < 1 O mes > 12 Entonces
     //         Escribir "El número ingresado no es válido. Por favor, ingrese un número entre 1 y 12."
     //     Sino
-    //         Definir nombreMes Como Caracteres
+    //         Definir nombreMes como caracter
     //         nombreMes = meses[mes]
     //         Escribir "El número que ha seleccionado corresponde a: ", nombreMes
     //     FinSi
@@ -432,12 +406,8 @@ function ejer12(){
 function ejer13(){
     // Dado 5 nombres, almacenarlos en un arreglo y luego presentar cada nombre del arreglo desde el último al primero sin usar ciclos.
     // Proceso ejer13
-    //     Definir nombre Como Arreglo de Caracteres
-    //     Definir n1 Como Caracteres
-    //     Definir n2 Como Caracteres
-    //     Definir n3 Como Caracteres
-    //     Definir n4 Como Caracteres
-    //     Definir n5 Como Caracteres
+    //     Definir nombre como caracter
+    //     Definir n1,n2,n3,n4,n5 Como Caracteres
     //     Escribir "Ingrese un nombre:"
     //     Leer n1
     //     Escribir "Ingrese otro nombre:"
@@ -464,13 +434,13 @@ function ejer13(){
 function ejer14(){
     // Dado una dirección cualquiera presentar la dirección, el primer carácter, el del medio y el último de dicha dirección.
     // Proceso ejer14
-    //     Definir direccion Como Caracteres 
+    //     Definir direccion como caracter
     //     Escribir "Ingrese una dirección:"
     //     Leer direccion
-    //     Definir primerCar Como Caracter
-    //     Definir carEnmedio Como Entero
-    //     Definir ultimoCar Como Caracter
-    //     Definir caracterEnMedio Como Caracter
+    //     Definir primerCar como caracter
+    //     Definir carEnmedio como entero
+    //     Definir ultimoCar como caracter
+    //     Definir caracterEnMedio como caracter
     //     primerCar = direccion[1]
     //     carEnmedio = Redondear(Longitud(direccion) / 2)
     //     ultimoCar = direccion[Longitud(direccion)]
@@ -519,7 +489,7 @@ function ejer15(){
 function ejer16(){
     // Dado un arreglo vacío, añadir 3 nombres y presentar el primer y el último carácter de cada nombre desde el arreglo.
     // Proceso ejer16
-    //     Definir nombres Como Arreglo de Caracteres
+    //     Definir nombres como caracter
     //     nombres = []
     //     Escribir "Ingrese nombre 1:"
     //     Leer n1
@@ -529,11 +499,10 @@ function ejer16(){
     //     Leer n3
     //     nombres.push(n1, n2, n3)
     //     Para i = 1 Hasta Longitud(nombres) Con Paso 1 Hacer
-    //         Definir nombre Como Caracteres
+    //         Definir nombre como caracter
     //         nombre = nombres[i]
     //         Si Longitud(nombre) > 0 Entonces
-    //             Definir primerCaracter Como Caracter
-    //             Definir ultimoCaracter Como Caracter
+    //             Definir primerCaracter, ultimoCaracter como caracteres
     //             primerCaracter = nombre[1]
     //             ultimoCaracter = nombre[Longitud(nombre)]
     //             Escribir "Nombre: ", nombre, ", primer carácter: ", primerCaracter, ", último carácter: ", ultimoCaracter
@@ -558,10 +527,10 @@ function ejer16(){
 function ejer17(){
     // Dada una cadena presentar el primer carácter siempre y cuando sea un dígito.
     // Proceso ejer17
-    //     Definir cadena Como Caracteres
+    //     Definir cadena como caracter
     //     Escribir "Ingrese una cadena:"
     //     Leer cadena
-    //     Definir primerCaracter Como Caracter
+    //     Definir primerCaracter como caracter
     //     primerCaracter = cadena[1]
     //     Si NoEsNumero(primerCaracter) Entonces
     //         Escribir "El primer carácter de la cadena no es un dígito."
@@ -581,10 +550,10 @@ function ejer17(){
 function ejer18(){
     // Dada una cadena presentar el último carácter siempre y cuando sea una letra.
     // Proceso ejer18
-    //     Definir cadena Como Caracteres
+    //     Definir cadena como caracter
     //     Escribir "Ingrese una cadena:"
     //     Leer cadena
-    //     Definir ultimoCaracter Como Caracter
+    //     Definir ultimoCaracter como caracter
     //     ultimoCaracter = cadena[Longitud(cadena)]
     //     Si (ultimoCaracter >= 'a' Y ultimoCaracter <= 'z') O (ultimoCaracter >= 'A' Y ultimoCaracter <= 'Z') Entonces
     //         Escribir "El último carácter de la cadena es una letra: ", ultimoCaracter
@@ -604,10 +573,10 @@ function ejer18(){
 function ejer19(){
     // Dada una cadena presentar el primer carácter siempre y cuando sea una vocal.
     // Proceso ejer19
-    //     Definir caracter Como Caracteres
+    //     Definir caracter como caracter
     //     Escribir "Ingrese una palabra:"
     //     Leer caracter
-    //     Definir n Como Caracter
+    //     Definir n como caracter
     //     n = caracter[1]
     //     Si n == "a" O n == "A" O n == "e" O n == "E" O n == "i" O n == "I" O n == "o" O n == "O" O n == "u" O n =="U" Entonces
     //         Escribir "La palabra ", caracter, " tiene la vocal ", n, " al inicio"
@@ -627,11 +596,11 @@ function ejer19(){
 function ejer20(){
     // Dada una cadena presentar el carácter de en medio, siempre y cuando sea un carácter de puntuación: ; : . ,
     // Proceso ejer20
-    //     Definir cadena Como Caracteres
+    //     Definir cadena como caracter
     //     Escribir "Ingrese una cadena:"
     //     Leer cadena
     //     Definir indiceMedio Como Entero
-    //     Definir caracterMedio Como Caracter
+    //     Definir caracterMedio como caracter
     //     indiceMedio = RedondeoAbajo(Longitud(cadena) / 2)
     //     caracterMedio = cadena[indiceMedio]
     //     Si caracterMedio == ';' O caracterMedio == ':' O caracterMedio == '.' O caracterMedio == ',' Entonces
@@ -653,8 +622,7 @@ function ejer20(){
 function ejer21(){
     // Dado dos caracteres indicar si son iguales o si el primero es menor que el segundo o mayor que el segundo.
     // Proceso ejer21
-    //     Definir car1 Como Caracteres
-    //     Definir car2 Como Caracteres
+    //     Definir car1, car2 como caracteres
     //     Escribir "Ingrese una palabra:"
     //     Leer car1
     //     Escribir "Ingrese otra palabra:"
@@ -685,8 +653,7 @@ function ejer21(){
 function ejer22(){
     // Dado dos nombres indicar si son iguales o si el primero es menor que el segundo o mayor que el segundo.
     // Proceso ejer22
-    //     Definir nombre1 Como Caracteres
-    //     Definir nombre2 Como Caracteres
+    //     Definir nombre1 y nombre2 como caracteres
     //     Escribir "Ingrese el primer nombre:"
     //     Leer nombre1
     //     Escribir "Ingrese el segundo nombre:"
@@ -714,7 +681,7 @@ function ejer22(){
 function ejer23(){
     // Dado una cadena indicar cuántos elementos tiene, sin usar ciclos.
     // Proceso ejer23
-    //     Definir cadena Como Caracteres
+    //     Definir cadena como caracter
     //     cadena = Leer("Ingrese algo:")
     //     Escribir "La cantidad de elementos que tiene es de ", Longitud(cadena)
     // FinProceso
@@ -726,7 +693,7 @@ function ejer23(){
 function ejer24(){
     // Dado un arreglo indicar cuántos elementos tiene, sin usar ciclos.
     // Proceso ejer24
-    //     Definir arreglo Como Arreglo de Enteros
+    //     Definir un arreglo
     //     arreglo = [1, 2, 3, 4, 5]
     //     Escribir "El arreglo tiene ", Longitud(arreglo), " elementos."
     // FinProceso
